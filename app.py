@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "✅ Flask app deployed using Azure DevOps CI/CD"
+    return "✅ Flask app deployed using Azure DevOps CI/CD, lets change"
 
 @app.route("/health")
 def health():
